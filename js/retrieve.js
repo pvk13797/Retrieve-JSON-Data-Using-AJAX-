@@ -20,7 +20,7 @@ $(document).ready(function () {
             });*/
 
             $("#jsondata").on("click", "#remove", function () {
-                $(this).closest("#display").remove();
+                $(this).closest("#display").fadeOut("slow");
             });
         });
 
